@@ -36,9 +36,9 @@
             this.Button.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Button.BackgroundImage = global::WinFormsApps.Properties.Resources.vinipuh_vinipuh;
             this.Button.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Button.Location = new System.Drawing.Point(120, 46);
+            this.Button.Location = new System.Drawing.Point(120, 41);
             this.Button.Name = "Button";
-            this.Button.Size = new System.Drawing.Size(338, 110);
+            this.Button.Size = new System.Drawing.Size(338, 99);
             this.Button.TabIndex = 0;
             this.Button.Text = "Дата Сегодняшнего Дня";
             this.Button.UseVisualStyleBackColor = false;
@@ -46,12 +46,14 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 215);
+            this.BackColor = System.Drawing.Color.DarkOrange;
+            this.ClientSize = new System.Drawing.Size(583, 194);
             this.Controls.Add(this.Button);
+            this.Font = new System.Drawing.Font("Edwardian Script ITC", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Окошко";
             this.ResumeLayout(false);
 
         }

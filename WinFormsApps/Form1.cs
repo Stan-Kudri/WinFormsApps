@@ -1,4 +1,4 @@
-namespace WinFormsApps
+п»їnamespace WinFormsApps
 {
     public partial class Form1 : Form
     {
@@ -10,7 +10,7 @@ namespace WinFormsApps
         private void button1_Click(object sender, EventArgs e)
         {
             var time = DateTime.Now.ToString("dd MMMM yyyy HH:MM:ss");
-            MessageBox.Show($"Дата на это время: {time}");
+            MessageBox.Show($"Р”Р°С‚Р° РЅР° СЌС‚Рѕ РІСЂРµРјСЏ: {time}");
         }
     }
 }
